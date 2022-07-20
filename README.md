@@ -38,7 +38,6 @@ Instale os pacotes python do projeto
 pip install -r requirements.txt
 or
 pip3 install -r requirements.txt
-
 ```
 
 E repita:
@@ -49,6 +48,7 @@ python manage.py migrate
 ```
 
 
+
 ## 📦 Desenvolvimento
 
 Mude as configurações no settings
@@ -56,6 +56,14 @@ Mude as configurações no settings
 EMAIL_HOST_USER = 'Coloque seu email aqui'
 ALLOWED_HOSTS = ['dominio.com']
 ```
+
+Crie um superuser:
+```
+python manage.py createsuperuser
+ou
+python3 manage.py createsuperuser
+```
+
 
 Modifique e escolha o banco de dados desejado. Opções:
 
